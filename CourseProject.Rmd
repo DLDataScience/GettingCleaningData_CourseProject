@@ -1,0 +1,36 @@
+---
+title: "Getting and Cleaning Data – Course Project"
+author: "David Levy"
+date: "11/15/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+
+## Loading the Data
+
+You can also embed plots, for example:
+
+```{r Loading the data}
+
+```
+
+## Preparing the Data
+
+```{r Preparing the data}
+
+```
+
+## Running the Cleaning Script
+
+```{r Running the cleaning Script}
+
+# call the run_analysis.R script
+source('run_analysis.R')
+
+```
