@@ -109,5 +109,5 @@ if(!file.exists(outputFile)){
     dir.create(outputFile)
 }
 
-write.csv(tidyDataSet, 'Tidy Data/tidyDataSet.csv')
-write.csv(tidyDataSet, 'Tidy Data/avTidyData.csv')
+write_csv(tidyDataSet, 'Tidy Data/tidyDataSet.csv')
+write_csv(avTidyData, 'Tidy Data/avTidyData.csv')
