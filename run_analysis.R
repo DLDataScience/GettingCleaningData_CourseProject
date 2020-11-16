@@ -109,5 +109,4 @@ if(!file.exists(outputFile)){
     dir.create(outputFile)
 }
 
-write_csv(tidyDataSet, 'Tidy Data/tidyDataSet.csv')
-write_csv(avTidyData, 'Tidy Data/avTidyData.csv')
+write.table(avTidyData, 'Tidy Data/avTidyData.csv', row.name=FALSE)
